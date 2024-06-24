@@ -1,0 +1,43 @@
+The project analysis the text and gives response in emoji. so if the text contais some positive information then it will generate the happy emoji otherwise it will generate the sad emoji. 
+the emotions can be sadness, happiness, and also we can search for #'s and see the public opinions too.
+
+how to clean the text.
+making sure everything is in the lowercase
+removing all the unwanted character with punctuation.
+
+
+Tokenization - how to break up the sentence into small words.
+
+
+steps in the prject:
+
+data collection:
+        in this step we collect the data from the twitter using twitter developers account. and twitten api v2.
+
+data preprocessing:
+        this is done the python nltk library. nltk is natural language toolkit.
+it is the python library used for the sentiment analysis.
+        data preprocessing is done in 2 parts.:
+                1. converting all the text data into lowercase.
+                2. cleaning the tex by removing the punctuations.
+                3. Tokenization - process of breaking down the sentence into words.
+
+feature extraction:
+        this the third step comes after the data preprocessing. in this step we apply machine learning algorithm. to analyze the data.
+the most popular algorithm is BoW- Bag of Words. 
+what this algorithm does is it counts the number of ocurences in the text data.
+
+
+Model Training:
+        in this we train our model to classify the sentiments of the tweets.
+        this can be done using various algorithms like Naive Bayes, Logistic Regression, SVM.
+
+Evaluation:
+        in this step we evaluate the performance of the model we created in the last step.
+        there are various metrics used to evaluate the performance of the model. like accuracy, precision, recall, f1 score.
+
+Visualization:
+        this is the final step. in this step we visualiza the result.
+
+
+
