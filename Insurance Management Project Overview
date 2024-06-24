@@ -1,0 +1,21 @@
+the insurance management system is the project built using the:
+  for frontend - html,css, js
+for backend - php and mysql for database connectivity.
+
+
+the project is all about the insurance polycies and user
+
+the project contains 3 modules:
+        1. user 
+        2. company
+        3. Admin
+
+1. user module:
+        in the user module the user is allowed to register and login.
+        choosing company of which he wants to buy the insurance of.
+        then he see through the company's insurance the return. its rating and other things.
+        user can buy, apply for the policy. check the status of that 
+
+2. Company Module:
+        this modules allows company to register themselves to the platform.
+        add the policy, edit policy, update or can delete the policy
